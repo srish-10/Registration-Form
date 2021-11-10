@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+
+<body>
+
+
+
+    <div class="form">
+        <h1>Registration Form</h1>
+        <p><b>Note:</b> Form is to be submitted before the deadline</p>
+        <form autocomplete="on" >
+            <fieldset>
+
+                <legend>Personal Details </legend>
+                <div id="personal">
+                    <label>Student Name :</label><br>
+                    <input type="text" name="first "  id="first" placeholder="First Name">
+                    <input type="text" name="middle"  id="middle" placeholder="Middle Name">
+                    <input type="text" name="last"  id="Last" placeholder="Last Name">
+                    <br><br> <label for="email"> Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="phone no">Phone Number</label>
+                    <input type="number" id="phone no"  name="phone no"
+                        placeholder="Enter 10 digit Number" minlength="9">
+                    <br><br>
+                    <label for="birthday">Birth Date :</label>
+                    <input type="date" id="birthday" name="birthday">
+                    <br><br>
+                    Gender:
+                    <input type="radio" id="male" name="radio station">
+                    <Label for="male">Male</Label>
+
+                    <input type="radio" id="female" name="radio station">
+                    <Label for="female">female</Label>
+
+                    <input type="radio" id="other" name="radio station">
+                    <Label for="other">Other</Label>
+                    <br><br>
+
+                    <div>
+                        <label>Education level completed</label>
+                        <select id="dropdown">
+                            <option value="university">university</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="High School">High School</option>
+                            <option value="None">None</option>
+                        </select>
+                    </div>
+                    <br><br>
+
+                    <div>
+                        Interest:
+                        <br>
+                        <label for="front-end">Front End:</label>
+                        <input type="checkbox" id="front-end" name="interest">
+                        <label for="Back-end">Back End</label>
+                        <input type="checkbox" id="Back-end" name="interest">
+                        <label for="Software">Software Developer</label>
+                        <input type="checkbox" id="s" name="interest">
+                    </div>
+                </div>
+
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Essay writing</legend>
+                <div id="essay">
+                    <label for="msg"></label>
+                    <p>In 50 words explain Why you want to be an IT Engineer?</p>
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter text here"></textarea>
+                </div>
+            </fieldset>
+            <div id="btn">
+                <p>Upload Resume/CV:</p>
+                <button>Attach Files</button>
+
+            </div>
+            <br><br>
+            <div id="submitt">
+                <button type="submit" id="submitt">Send your application</button>
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
